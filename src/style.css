@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 10vh;
+    background-image: linear-gradient(to right top, #bebebe, #c1bfca, #c5c1d5, #c9c2e0, #cec3eb);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+button:hover{
+    background: #4040e4;
+    transition: 0.5s;
+}
+
+button:not(:hover){
+    background: #5E5DF0;
+    transition: 0.3s;
+}
+
+button:active{
+    background: #2c2cc4;
+    transition: 0.2s;
+    transform: translateY(4px);
+}
+
+nav{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+
+}
+
+#content{
+    background-color: #f9f1f1;
+    flex: 1;
+    margin: 0;
+}
+
+#smc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#lung,#scurt,#titlu{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    max-width: 70ch;
+    text-align: center;
+    margin: 1vh;
+}
+
+#titlu{
+    font-size: 55px;
+}
+
+#scurt{
+    font-size: 35px;
+
+}
+
+#lung{
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+
+#imagine2{
+    scale: 1;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.poza-mancare{
+    height: 20vh;
+}
+
+.menu{
+    position: relative;
+    margin-top: 3%;
+}
